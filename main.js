@@ -1,5 +1,5 @@
 var switcher = document.getElementById('switch');
-var modeChanger = document.querySelector('.mode-changer');
+var modeChanger = document.getElementById('mode-changer');
 var crater1 = document.getElementById('crater1');
 var crater2 = document.getElementById('crater2');
 var crater3 = document.getElementById('crater3');
