@@ -1,9 +1,9 @@
-var switcher = document.getElementById('switch');
-var modeChanger = document.getElementById('mode-changer');
-var crater1 = document.getElementById('crater1');
-var crater2 = document.getElementById('crater2');
-var crater3 = document.getElementById('crater3');
-var isSwitched = false;
+const switcher = document.getElementById('switch');
+const modeChanger = document.getElementById('mode-changer');
+const crater1 = document.getElementById('crater1');
+const crater2 = document.getElementById('crater2');
+const crater3 = document.getElementById('crater3');
+let isSwitched = false;
 
 switcher.addEventListener('click', ()=>{
   if(!isSwitched){
